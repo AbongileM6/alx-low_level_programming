@@ -3,15 +3,21 @@
 /**
  * main - prints the size of types on computer
  *
- * Return: 0 when successful
+ * Return: 0 (success)
  */
 
 int main(void)
 {
-	printf(""Size of a char: %lu byte(s)", sizeof(char)\n");
-	printf(""Size of an int: %lu byte(s)", sizeof(int)\n");
-	printf(""Size of long int: %lu byte(s)", sizeof(long int)\n");
-	printf(""Size of long long int: %lu byte(s)", sizeof(long long int)\n");
-	printf(""Size of a float: %lu byte(s)", sizeof(float)\n");
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
+
+printf("Size of a char: %lu byte(s)\n", (unasigned long)sizeof(a));
+printf("Size of an int: %lu byte(s)\n", (unasigned long)sizeof(b));
+printf("Size of long int: %lu byte(s)\n", (unasigned long)sizeof(c));
+printf("Size of long long int: %lu byte(s)\n", (unasigned long)sizeof(d));
+printf("Size of a float: %lu byte(s)\n", (unasigned long)sizeof(f));
 	return (0);
 }
